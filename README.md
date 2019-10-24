@@ -1,34 +1,14 @@
 # World_Guess_Game
 
-1. Create a new GitHub repo called `Word Guess Game` or `Psychic-Game`, in accordance with the assignment you choose to complete. Then, clone it to your computer.
+1. Create a new GitHub repo called 'word guess game' and clone it to my computer.
+2. Create 'index.html' and Create Assets folder, in that folder, please add javascript, css, and images. 
+3. In the javascript folder, please make a file "game.js" On "css" folder, please add "style.css" and add "reset.css" 
+4. Push often.
+5. Add basic html, layouts, basic style. 
+6. Search and Study for javascript for Word Guess Game. 
+7. Also, watch the demo. 
+8. Create a theme for the game. 
 
-2. Inside your local git repository, create an `index.html`.
-
-3. While still in your local git repo, create a directory called `assets`.
-4. `cd` your way into the `assets` folder, then make three additional folders: `javascript`, `css` and `images`.
-
-   * In the `javascript` folder, make a file called `game.js`. Use the `src` attribute of the `script` tag to link to this file, rather than embedding the code directly in your HTML document.
-   * In the `css` folder, make a file called `style.css`.
-   * Also in the `css` folder, make a file called `reset.css`. Paste into it the code from the Meyerweb reset stylesheet. If you opt to use Bootstrap instead of writing your own CSS, skip this step, and simply include a link to Bootstrap via CDN.
-   * In the `images` folder, save whatever images you plan on using.
-
-```
-├── assets
-|  ├── css
-|  |  └── style.css
-|  ├── images
-|  └── javascript
-|     └── game.js
-└── index.html
-```
-
-5. Push the above changes to GitHub.
-
-6. Choose whichever game you'd like to build. Making the Psychic game will prove less challenging than coding Word Guess. However, as the challenge of the Word Guess exercise provides a more comprehensive review of this unit's material, we suggest attempting that assignment first.
-
-7. Note: There's no shame if you'd prefer submitting Psychic—it's still a proper challenge.
-
-8. Push your selected game to Github Pages.
 
 
 ## Word Guess Game 
