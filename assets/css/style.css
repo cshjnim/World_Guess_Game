@@ -1,3 +1,5 @@
+/* add basic style*/
+
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background: black;
@@ -10,6 +12,7 @@ body {
 
 header {
     text-align: center;
+
 }
 
 .container {
@@ -18,13 +21,7 @@ header {
     margin: 0 auto;
     clear: both;
     margin: 5px;
-  }
-  
-  h1,
-  h2,
-  h3,
-  p {
-    margin-bottom: 20px;
+    text-align: center;
   }
 
 
@@ -36,9 +33,18 @@ h3 {
   color: #dddddd;
 }
 
-h1 {
+h2 {
   padding-bottom: 20px;
-  font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #dddddd;
+}
+
+h1 {
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.row {
+  background-origin: padding-box;
+  box-shadow: #dddddd;
 }
