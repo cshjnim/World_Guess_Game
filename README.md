@@ -8,6 +8,7 @@
 6. Search and Study for javascript for Word Guess Game. 
 7. Also, watch the demo. 
 8. Create a theme for the game. 
+8. Create javascript layout for theme music playing and Create music folder to add theme songs.
 
 
 
