@@ -8,7 +8,10 @@
 6. Search and Study for javascript for Word Guess Game. 
 7. Also, watch the demo. 
 8. Create a theme for the game. 
-8. Create javascript layout for theme music playing and Create music folder to add theme songs.
+9. Choose the word! - Inception, Harry Potter, Matrix, Lord of the Ring, Iron Man, Transformers, Avengers
+10. Create javascript layout for theme music playing and Create music folder to add theme songs.
+12. Add images for the user's hint. Image will change when they guess. 
+13. Create variable, function, process of javasript.
 
 
 
