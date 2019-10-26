@@ -16,6 +16,7 @@ header {
 }
 
 .container {
+    float: center;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
@@ -27,7 +28,8 @@ header {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
   color: #dddddd;
@@ -44,7 +46,16 @@ h1 {
   font-size: 30px;
 }
 
+h4 {
+  line-height: 30px;
+  padding-bottom: 5px;
+}
+
 .row {
   background-origin: padding-box;
   box-shadow: #dddddd;
+}
+
+#currentWord {
+    letter-spacing: 10px;
 }

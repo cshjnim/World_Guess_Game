@@ -2,34 +2,92 @@
  var name = prompt("What's your name?");
     console.log("Hello " + name); 
   
-  // Gets Link for Theme Song
-    var audioElement = document.createElement("audio");
-    audioElement.setAttribute("src", "assets/");
 
-    // Theme Button
-    $(".theme-button").on("click", function() {
-      audioElement.play();
-    });
-    $(".theme2-button").on("click", function() {
-        audioElement.setAttribute("src", "assets/");
-      audioElement.play();
-    });
-    $(".theme3-button").on("click", function() {
-        audioElement.setAttribute("src", "assets/");
-      audioElement.play();
-    });
-    $(".theme4-button").on("click", function() {
-        audioElement.setAttribute("src", "assets/");
-    audioElement.play();
-    });
 
-    // VARIABLES
-    // ==========================================================================
+var possibleWords = ["inception", "harrypotter", "matrix", "lordofrings", "ironman", "avengers", "transformers",]
 
-    // The array of questions for our quiz game.
-    var currentWord =  (" _ " +  " _ " + " _ " + " _ " + " _ " + " _ " + " _ " +  " _ " + " _ ")
-      // We start the game with a score of 0.
-      var score = 0;
-      // Variable to hold the index of current question.
-      var currentWordIndex = 0;
+var randomWord = "";
+var lettersOfWord = []
+var blanks = 0;
+var blanksAndCorrect = [];
+var wrongGuess = [];
+
+//Counter Variables
+var wins = 0;
+var losses = 0;
+var guessesRemaining = 9;
+
+
+// Functions
+function Game() {
+    //computer generates random word from words array
+    randomWord = possibleWords[Math.floor(Math.random() * possibleWords.length)];
+
+    // split the individual word into separate arrays, and store in new array 
+    lettersOfWord = randomWord.split("");
+
+    //store length of word in blanks, for later use
+    blanks = lettersOfWord.length;
+
+    //creating a loop to generate "_" for each letter in array stored in blanks
+    for (var i = 0; i < blanks; i++) {
+        blanksAndCorrect.push("_");
+    }
+
+    //showing the "_" within HTML
+    document.getElementById("currentword").innerHTML = "  " + blanksAndCorrect.join("  ");
+
+    //console logging 
+    console.log(randomWord);
+    console.log(lettersOfWord)
+    console.log(blanks)
+    console.log(blanksAndCorrect)
+}
+
+function Game() {
+    //computer generates random word from words array
+    randomWord = possibleWords[Math.floor(Math.random() * possibleWords.length)];
+
+    // split the individual word into separate arrays, and store in new array 
+    lettersOfWord = randomWord.split("");
+
+    //store length of word in blanks, for later use
+    blanks = lettersOfWord.length;
+
+    //creating a loop to generate "_" for each letter in array stored in blanks
+    for (var i = 0; i < blanks; i++) {
+        blanksAndCorrect.push("_");
+    }
+
+    //showing the "_" within HTML
+    document.getElementById("currentword").innerHTML = "  " + blanksAndCorrect.join("  ");
+
+    //console logging 
+    console.log(randomWord);
+    console.log(lettersOfWord)
+    console.log(blanks)
+    console.log(blanksAndCorrect)
+}
+
+    updateDisplay()
+
+
+    // Check in keypressed is between A-Z or a-z
+    function isAlpha (ch){
+        return /^[A-Z]$/i.test(ch);
+    }
+
+
+
+//__________________________________________________________
+//RESET FUNCTION
+//__________________________________________________________
+function reset() {
+    guessesRemaining = 9;
+    wrongGuess = [];
+    blanksAndCorrect = [];
+    Game()
+}
+
+
 

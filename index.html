@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>WORD GUESS GAME! What's this?!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="javascript" type="text/javascript" href="assets/javascript/game.js">
+    <link rel="javascript" href="assets/javascript/game.js">
 </head>
 <body>
     <!-- Header -->
@@ -18,9 +19,9 @@
     <!-- basic instructions -->
     <div class = "container">
         <div class = "row">
-            <!-- Add image and it will change everytime when user guesses. -->
+            <!-- Add image and it will change everytime when user wins. -->
             <div class = "col-sm-4">
-                <img scr= "assets/images/guesstheword.jpg" id= "images" style=" top:50px; left: 80px; z-index: -20; height: 100px">
+                <img id = "images" scr= "assets/images/guesstheword.jpg" >
                 <p>
                     Please volume up!
                 </p>
@@ -28,20 +29,47 @@
             <!-- Javascript -->
             <div class = "col-sm-4">
                 <h3>Please press any key to get started!</h3>
-
                 <h4>Wins</h4>
-                <div id="totalWins"></div>
+                <div id="winstracker"></div>
                 <h4>Current Word</h4>
-                <div id="currentWord"></div>
+                <div id="currentword"></div>
+                <p></p>
                 <h4>Number of Guesses Remaining</h4>
-                <div id="remainingGuesses"></div>
+                <div id="guessesRemaining"></div>
                 <h4>Letters Guessed</h4>
-                <div id="guessedLetters"></div>
-                <script src="assets/javascript/game.js">
-
-                </script>
+                <div id="playerguesses"></div>
             </div>
         </div>
     </div>
+
+    <!--audio-->
+    <div>
+            <audio id="inception">
+                <source src="./assets/music/inception.mp3" type="audio/mp3">
+            </audio>
+            <audio id="avengers">
+                <source src="./assets/music/Avengers.mp3" type="audio/mp3">
+            </audio>
+            <audio id="harrypotter">
+                <source src="./assets/music/harrypotter.mp3" type="audio/mp3">
+            </audio>
+            <audio id="ironman">
+                <source src="./assets/music/ironman.mp3" type="audio/mp3">
+            </audio>
+            <audio id="lordoftherings">
+                <source src="./assets/music/lordoftherings.mp3" type="audio/mp3">
+            </audio>
+            <audio id="transformers">
+                <source src="./assets/music/transformers.mp3" type="audio/mp3">
+            </audio>
+            <audio id="matrix">
+                <source src="./assets/music/The Matrix.mp3" type="audio/mp3">
+            </audio>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" ></script>    
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>
