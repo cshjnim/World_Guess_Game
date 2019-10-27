@@ -120,7 +120,7 @@ function aud() {
         ironman.pause();
         a.pause();
         harrypotter.play();
-        document.getElementById("image").src="./assets/images/harrypotter.jpg";
+        document.getElementById("image").src= ".assets/images/harrypotter.jpg";
     }
     // avengers Audio & Image
     //---------------------------
