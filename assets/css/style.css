@@ -6,22 +6,16 @@ body {
     color: white;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 header {
     text-align: center;
 
 }
 
 .container {
-    float: center;
+    padding-top: 20px;
     width: 100%;
-    max-width: 960px;
     margin: 0 auto;
     clear: both;
-    margin: 5px;
     text-align: center;
   }
 
@@ -46,9 +40,11 @@ h1 {
   font-size: 30px;
 }
 
-h4 {
-  line-height: 30px;
-  padding-bottom: 5px;
+h4,
+h3,
+p {
+  line-height: 40px;
+  padding-bottom: 15px;
 }
 
 .row {

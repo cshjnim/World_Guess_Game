@@ -20,24 +20,28 @@
     <div class = "container">
         <div class = "row">
             <!-- Add image and it will change everytime when user wins. -->
-            <div class = "col-sm-4">
+            <div class = "col-sm-6">
                 <img id = "images" scr= "assets/images/guesstheword.jpg" >
-                <p>
-                    Please volume up!
-                </p>
             </div>
             <!-- Javascript -->
-            <div class = "col-sm-4">
+            <div class = "col-sm-6">
+            <div>
                 <h3>Please press any key to get started!</h3>
-                <h4>Wins</h4>
-                <div id="winstracker"></div>
+                <p>Please volume up!</p>
+                <h4>Wins <span id="winstracker"></span>
+                </h4>
+            </div>
+               <div>
                 <h4>Current Word</h4>
-                <div id="currentword"></div>
-                <p></p>
-                <h4>Number of Guesses Remaining</h4>
-                <div id="guessesRemaining"></div>
-                <h4>Letters Guessed</h4>
-                <div id="playerguesses"></div>
+                    <h3 id= "currentword"> _ _ _ _ _ _ _ _ _ _ _ _ </h3>
+               </div>
+            <div>
+                <h4>Number of Guesses Remaining
+                    <span id="guessesremaining"></span>
+                </h4>
+                <h4>Letters Guessed <span id="playerguesses"></span>
+                </h4>
+            </div>
             </div>
         </div>
     </div>
@@ -66,7 +70,7 @@
                 <source src="./assets/music/The Matrix.mp3" type="audio/mp3">
             </audio>
     </div>
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" ></script>    
