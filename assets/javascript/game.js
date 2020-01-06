@@ -16,7 +16,7 @@ var guessesRemaining = 9;
 
 
 // Functions
-function Game() {
+function game() {
     //computer generates random word from words array
     randomWord = words[Math.floor(Math.random() * words.length)];
 
@@ -155,7 +155,7 @@ function reset() {
     guessesRemaining = 9;
     wrongGuess = [];
     blanksAndCorrect = [];
-    Game()
+    game()
 }
 
 
@@ -215,7 +215,7 @@ function complete() {
 
 
 //call start game function
-Game()
+game()
 
 //check for keyup, and convert to lowercase then store in guesses
 document.onkeyup = function (event) {
