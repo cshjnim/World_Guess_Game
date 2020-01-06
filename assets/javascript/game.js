@@ -1,4 +1,4 @@
-console.log ("This is working well")
+console.log("This is working well")
 
 //variables
 
@@ -28,8 +28,8 @@ function Game() {
 
     //creating a loop to generate "_" for each letter in array stored in blanks
     for (var i = 0; i < blanks; i++) {
-        blanksAndCorrect.push ("_");
-        
+        blanksAndCorrect.push("_");
+
     }
 
     //showing the "_" within HTML
@@ -43,10 +43,10 @@ function Game() {
 }
 
 
-    // Check in keypressed is between A-Z or a-z
-    function isAlpha (ch){
-        return /^[A-Z]$/i.test(ch);
-    }
+// Check in keypressed is between A-Z or a-z
+function isAlpha(ch) {
+    return /^[A-Z]$/i.test(ch);
+}
 
 
 //**AUDIO FUNCTION
@@ -72,7 +72,7 @@ function aud() {
         lordofrings.pause();
         ironman.pause();
         a.play();
-        document.getElementById("image").src="./assets/images/inception.jpg"; 
+        document.getElementById("image").src = "./assets/images/inception.jpg";
     }
     //Ironman Audio & Image
     //---------------------------
@@ -84,7 +84,7 @@ function aud() {
         lordofrings.pause();
         a.pause();
         ironman.play();
-        document.getElementById("image").src="./assets/images/ironman.jpg";
+        document.getElementById("image").src = "./assets/images/ironman.jpg";
     }
     //Matrix Audio & Image
     //---------------------------
@@ -96,7 +96,7 @@ function aud() {
         ironman.pause();
         a.pause();
         matrix.play();
-        document.getElementById("image").src="./assets/images/matrix.jpg";
+        document.getElementById("image").src = "./assets/images/matrix.jpg";
     }
     //transformer Audio & Image
     //---------------------------
@@ -108,7 +108,7 @@ function aud() {
         ironman.pause();
         a.pause();
         transformers.play();
-        document.getElementById("image").src="./assets/images/transformers.jpeg";
+        document.getElementById("image").src = "./assets/images/transformers.jpeg";
     }
     //harrypotter Audio & Image
     //---------------------------
@@ -120,7 +120,7 @@ function aud() {
         ironman.pause();
         a.pause();
         harrypotter.play();
-        document.getElementById("image").src="./assets/images/harrypotter.jpg";
+        document.getElementById("image").src = "./assets/images/harrypotter.jpg";
     }
     // avengers Audio & Image
     //---------------------------
@@ -132,7 +132,7 @@ function aud() {
         ironman.pause();
         a.pause();
         avengers.play();
-        document.getElementById("image").src="./assets/images/avengers.jpeg";
+        document.getElementById("image").src = "./assets/images/avengers.jpeg";
     }
     // lordoftherings Audio & Image
     //---------------------------
@@ -144,7 +144,7 @@ function aud() {
         ironman.pause();
         a.pause();
         lordofrings.play();
-        document.getElementById("image").src="./assets/images/lordoftherings.jpeg";
+        document.getElementById("image").src = "./assets/images/lordoftherings.jpeg";
     }
 };
 

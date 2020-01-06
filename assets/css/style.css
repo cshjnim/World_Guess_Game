@@ -1,30 +1,28 @@
 /* add basic style*/
 
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background: black;
-    color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: black;
+  color: white;
 }
 
 header {
-    text-align: center;
-
+  text-align: center;
 }
 
 .container {
-    padding-top: 20px;
-    width: 100%;
-    margin: 0 auto;
-    clear: both;
-    text-align: center;
-  }
-
+  padding-top: 20px;
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+}
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
   color: #dddddd;
 }
@@ -53,5 +51,5 @@ p {
 }
 
 #currentWord {
-    letter-spacing: 10px;
+  letter-spacing: 10px;
 }
