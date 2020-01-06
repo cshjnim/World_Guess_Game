@@ -52,6 +52,10 @@ The object of word guessing games is for players to guess a word or phrase that 
 
 ![Screenshots](/screenshots/wordguessgame.jpg)
 
+* When you play games:
+
+![Screenshots](/screenshots/results.png)
+
 ### Links & Portfolio's Links
 *  [Deployed Version of App](https://cshjnim.github.io/World_Guess_Game/)
 *  [Hyejin's Portfolio](https://cshjnim.github.io/)
