@@ -11,7 +11,7 @@ Updated: as of Jan. 5, 2019
 
 ### Overview
 
-In this assignment, you will make WORDGUESS GAME. A Basic word-guess game for user can play wordguess game for movies. User will see blanks and listen to the background music as hint, and type letter to guess the movie name. If user's guess is correct, user will see the movie picture.
+In this assignment, you will make WORDGUESS GAME. A Basic word-guess game for user can play wordguess game for movies. User will see blanks and corrected letter will be appear as hint, and keep type out the letter to guess the movie name. If user's guess is correct, user will see the movie picture and background music!
 
 # What is WordGuess Game?
 
@@ -55,6 +55,10 @@ The object of word guessing games is for players to guess a word or phrase that 
 * When you play games:
 
 ![Screenshots](/assets/screenshots/results.png)
+
+* When you lose game:
+
+![Screenshots](/assets/screenshots/tryagain.png)
 
 ### Links & Portfolio's Links
 *  [Deployed Version of App](https://cshjnim.github.io/World_Guess_Game/)
