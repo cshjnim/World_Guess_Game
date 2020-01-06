@@ -120,7 +120,7 @@ function aud() {
         ironman.pause();
         a.pause();
         harrypotter.play();
-        document.getElementById("image").src= ".assets/images/harrypotter.jpg";
+        document.getElementById("image").src="./assets/images/harrypotter.jpg";
     }
     // avengers Audio & Image
     //---------------------------
@@ -205,7 +205,7 @@ function complete() {
     } else if (guessesRemaining === 0) {
         losses++;
         reset()
-        document.getElementById("image").src = "./assets/images/try-again.png"
+        document.getElementById("image").src = "./assets/images/try-again.jpg"
         document.getElementById("losstracker").innerHTML = " " + losses;
     }
     //display losses on screen && guesses remaining countdown
